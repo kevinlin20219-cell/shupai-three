@@ -1,0 +1,133 @@
+/* Colorful palette; shared geometry lives in themes.css. */
+:root[data-theme="festival"]{--ink:#292750;--paper:#dbe8ff;--mint:#83ebc4;--peach:#ffc1da;--purple:#c49aff;--blue:#9bdcff;--yellow:#ffe37f;--line:#ada0d3}
+html[data-theme="festival"] body{background-color:#c5d8ff;background-image:radial-gradient(ellipse at 58% 28%,#ffffffae 0%,#ffffff25 40%,transparent 68%),repeating-conic-gradient(from -12deg at 62% 30%,#9ebcff 0deg 18deg,#ffb0d9 18deg 36deg,#a0e9ee 36deg 54deg,#ffe598 54deg 72deg,#c5a8ff 72deg 90deg);background-size:100% 100%,100% 100%;background-attachment:fixed;background-repeat:no-repeat}
+html[data-theme="festival"] .page-noise{opacity:.009}
+html[data-theme="festival"] .header{background:#fffefbf2;border:2px solid #4f3c7e;border-top:0;border-radius:0 0 30px 30px;box-shadow:0 5px 0 #7960c45c}
+html[data-theme="festival"] .brand-icon{background:#8be9d4;border-color:#36325e;box-shadow:3px 3px 0 #9270d0}
+html[data-theme="festival"] .brand-bang{color:#ff648c}
+html[data-theme="festival"] .header .nav-item{color:#655082}
+html[data-theme="festival"] .header .nav-item.active{color:#443368;background:#d5f9e7}
+html[data-theme="festival"] .header .nav-item.active:after{background:#fb76bc}
+html[data-theme="festival"] .header .nav-item:hover{background:#ffed9c;color:#473366}
+html[data-theme="festival"] .grade-tag{background:#eee2ff;color:#6b498b;border-color:#bd9bdf}
+html[data-theme="festival"] .icon-button:hover{background:#ecd8ff}
+html[data-theme="festival"] .hero h1{color:#342951;text-shadow:3px 3px 0 #fff,-2px -2px 0 #fff,2px -2px 0 #fff,-2px 2px 0 #fff}
+html[data-theme="festival"] .rhythm-word{color:#256b64}
+html[data-theme="festival"] .rhythm-word:before{background:#7ff0c8}
+html[data-theme="festival"] .rhythm-word svg{stroke:#36a98b}
+html[data-theme="festival"] .hero h1 .period{color:#fb6c98}
+html[data-theme="festival"] .hero-description,html[data-theme="festival"] .hero-tags,html[data-theme="festival"] .eyebrow{color:#534367;text-shadow:0 1px 2px #fff,1px 0 1px #fff,-1px 0 1px #fff}
+html[data-theme="festival"] .hero-description{background:#ffffffa6;background-clip:content-box;border-radius:10px}
+html[data-theme="festival"] .eyebrow{font-weight:600}
+html[data-theme="festival"] .hero-art:before{background:radial-gradient(circle at 35% 30%,#fff9c3,#ffcf68 70%);box-shadow:0 0 0 10px #fff8d833,0 0 0 18px #fd98d622}
+html[data-theme="festival"] .hero-art:after{border-color:#a37dd4}
+html[data-theme="festival"] .art-orbit{border-color:#aa83d5}
+html[data-theme="festival"] .art-label{background:#fff1a9;border-color:#c39762;color:#85603c;box-shadow:2px 3px #c49bd46b}
+html[data-theme="festival"] .math-one{color:#9b61d5!important}
+html[data-theme="festival"] .math-two{color:#287f9d!important}
+html[data-theme="festival"] .math-three{color:#e57183!important}
+html[data-theme="festival"] .hero-art .stage{background:#ffdf85;border-color:#bb8858}
+html[data-theme="festival"] .practice-card.session-entry{border:2px solid #5a3d84;box-shadow:4px 7px #8c66c680}
+html[data-theme="festival"] .entry-basic{background:linear-gradient(115deg,#abf0d3,#e2fff0)}
+html[data-theme="festival"] .entry-advanced{background:linear-gradient(115deg,#ceadff,#f0d4ff)}
+html[data-theme="festival"] .session-entry h2{color:#443064}
+html[data-theme="festival"] .session-entry p{color:#5d4b73}
+html[data-theme="festival"] .session-entry .new-pill{background:#54cfa8;color:#244f4b}
+html[data-theme="festival"] .entry-advanced .new-pill{background:#8950bc;color:#fff}
+html[data-theme="festival"] .entry-basic .practice-disc{background:#ffdc63;border-color:#8c6353;box-shadow:3px 4px #d5a348}
+html[data-theme="festival"] .entry-advanced .practice-disc{background:#c997fa;border-color:#76509d;box-shadow:3px 4px #a371c5}
+html[data-theme="festival"] .button.primary,html[data-theme="festival"] .start-main.primary{background:#4674f1;border-color:#383065;box-shadow:2px 4px #694b9d;color:#fff}
+html[data-theme="festival"] .button.secondary{background:#fff4af;border-color:#9d7b56;box-shadow:2px 4px #be9764;color:#634c64}
+html[data-theme="festival"] .button.advanced-button,html[data-theme="festival"] .advanced-button{background:#9455d8;border-color:#563480;box-shadow:2px 4px #784da2;color:#fff}
+html[data-theme="festival"] .button:hover{filter:brightness(1.06)}
+html[data-theme="festival"] .button:focus-visible,html[data-theme="festival"] .nav-item:focus-visible{outline-color:#ed4999}
+html[data-theme="festival"] .unit-card{border:2px solid #aa82cc;box-shadow:3px 5px #9472bf66;background:#fffdfafa}
+html[data-theme="festival"] .unit-card.mint{background:#d2fae8}
+html[data-theme="festival"] .unit-card.peach{background:#ffe0ed}
+html[data-theme="festival"] .unit-card.purple{background:#e6d5ff}
+html[data-theme="festival"] .unit-card.blue{background:#d8f2ff}
+html[data-theme="festival"] .unit-card.yellow{background:#fff0b2}
+html[data-theme="festival"] .unit-card:hover{border-color:#8452b0;box-shadow:4px 7px #9970c47a}
+html[data-theme="festival"] .unit-card h3{color:#4f326d}
+html[data-theme="festival"] .unit-card p,html[data-theme="festival"] .unit-card-foot{color:#695074}
+html[data-theme="festival"] .unit-icon{border-color:#8f63af;box-shadow:2px 3px #9c73bf35}
+html[data-theme="festival"] .mini-progress i{background:#fff9}
+html[data-theme="festival"] .mini-progress i.filled{background:#4dbd92}
+html[data-theme="festival"] .activity-strip{background:#dfc5ffde;border-color:#a57bc7}
+html[data-theme="festival"] .activity-label,html[data-theme="festival"] .activity-strip button,html[data-theme="festival"] .activity-levels>span{color:#67487c}
+html[data-theme="festival"] .activity-levels button{background:#8be6bd;border-color:#57b68c}
+html[data-theme="festival"] .activity-levels .advanced-link{background:#c791f5;border-color:#9665c1;color:#4e2e68}
+html[data-theme="festival"] .section-kicker,html[data-theme="festival"] .unit-number{color:#795498}
+html[data-theme="festival"] .section-heading .text-button,html[data-theme="festival"] .review-shortcut{color:#5c3b7c}
+html[data-theme="festival"] .section-heading h2,html[data-theme="festival"] .little-stats b{color:#4a3268}
+html[data-theme="festival"] .small-star{color:#fc6ab0}
+html[data-theme="festival"] .reward-journey{background:linear-gradient(115deg,#d7faeb,#e4ccff);border:2px dashed #a177c8;box-shadow:3px 5px #a17bd34a}
+html[data-theme="festival"] .journey-symbol{background:#ffdf6d;border-color:#a77e43;color:#80563c}
+html[data-theme="festival"] .journey-copy h3,html[data-theme="festival"] .result-main .journey-copy h3{color:#573273}
+html[data-theme="festival"] .journey-copy p,html[data-theme="festival"] .journey-kicker,html[data-theme="festival"] .equipped-mix span,html[data-theme="festival"] .reward-journey>.text-button{color:#654877}
+html[data-theme="festival"] .journey-meter{background:#f8eaff}
+html[data-theme="festival"] .journey-meter i{background:linear-gradient(90deg,#4cc9a2,#ac64e3)}
+html[data-theme="festival"] .equipped-mix span{background:#fffdf4e8;border:1px solid #ddc5ee}
+html[data-theme="festival"] .journey-kicker{font-weight:600}
+html[data-theme="festival"] .advanced-hero{background:linear-gradient(115deg,#d7b6ff,#ffd3f1);border:2px solid #a679c9;box-shadow:4px 6px #a37bcb66}
+html[data-theme="festival"] .advanced-hero h1{color:#613580}
+html[data-theme="festival"] .advanced-hero p,html[data-theme="festival"] .advanced-hero>small,html[data-theme="festival"] .advanced-note,html[data-theme="festival"] .advanced-progress,html[data-theme="festival"] .challenge-list{color:#67467c}
+html[data-theme="festival"] .advanced-tag,html[data-theme="festival"] .advanced-badges>span{background:#fbe8ff;color:#713b92;border-color:#bf8ad7}
+html[data-theme="festival"] .thought-orbit{background:#c99bf09c;border-color:#9462c1}
+html[data-theme="festival"] .thought-chip{background:#fff0ab;border-color:#bb8eb3;color:#82529b;box-shadow:2px 3px #bb83c95c}
+html[data-theme="festival"] .advanced-note{background:#fffaf0dc;padding:14px 17px;border-radius:17px}
+html[data-theme="festival"] .advanced-progress{background:#ffffffc9;border-radius:16px;padding:12px 16px}
+html[data-theme="festival"] dialog{background:#fffafefc;border:2px solid #785291;box-shadow:5px 9px #69459e55,0 18px 50px #493d6f50}
+html[data-theme="festival"] .modal-header h2{color:#5f3879}
+html[data-theme="festival"] .modal-intro,html[data-theme="festival"] .about-text,html[data-theme="festival"] .setting-row small,html[data-theme="festival"] .settings-note,html[data-theme="festival"] .fine-print{color:#70527e}
+html[data-theme="festival"] .setting-row{border-color:#e9cfee}
+html[data-theme="festival"] .setting-row strong{color:#5f397d}
+html[data-theme="festival"] .setting-row select{background:#e8d3ff;border-color:#c59bde;color:#70438e}
+html[data-theme="festival"] .setting-row input:checked{background:#70deb7;border-color:#53b58e}
+html[data-theme="festival"] .setting-row input[type=range]{accent-color:#a36de1}
+html[data-theme="festival"] .icon-button{color:#5b3e7d}
+html[data-theme="festival"] .reward-wallet,html[data-theme="festival"] .clear-reward{background:linear-gradient(115deg,#ffe9a5,#ffd589);border:2px solid #bd8c48;box-shadow:3px 5px #c1965066}
+html[data-theme="festival"] .clear-reward h2{color:#734e4e}
+html[data-theme="festival"] .clear-reward h2 b{color:#a46528}
+html[data-theme="festival"] .clear-reward p,html[data-theme="festival"] .new-unlocks>div,html[data-theme="festival"] .new-unlocks .text-button,html[data-theme="festival"] .reward-view-all{color:#7e5943}
+html[data-theme="festival"] .reward-wallet p,html[data-theme="festival"] .reward-wallet small{color:#805f3d}
+html[data-theme="festival"] .reward-item{background:#fff9ff;border:2px solid #c6a1df;box-shadow:2px 4px #bd9ad64d}
+html[data-theme="festival"] .reward-item h3{color:#77468c}
+html[data-theme="festival"] .reward-item p,html[data-theme="festival"] .reward-item-info>small{color:#765485}
+html[data-theme="festival"] .reward-equip{background:#a6edc9;border-color:#6dc299;color:#3b6853}
+html[data-theme="festival"] .reward-equip.equipped{background:#ffe28a;border-color:#d8b66a;color:#83613d}
+html[data-theme="festival"] .reward-item.locked{opacity:1}
+html[data-theme="festival"] .reward-item.locked .reward-preview{opacity:.72}
+html[data-theme="festival"] .calendar-day,html[data-theme="festival"] .calendar-toolbar .icon-button{background:#ebd9ff;border-color:#c4a3dd;color:#74458f}
+html[data-theme="festival"] .calendar-day.practiced{background:#b8f0d7}
+html[data-theme="festival"] .calendar-day.selected{background:#83e2b8;border-color:#55b28c;box-shadow:0 3px #6dc099}
+html[data-theme="festival"] .calendar-day.today{border-color:#bc79d5}
+html[data-theme="festival"] .day-journal{background:#e8d7ff;border-color:#b893d4}
+html[data-theme="festival"] .day-stat-grid strong,html[data-theme="festival"] .journal-label{color:#80519b}
+html[data-theme="festival"] .day-journal textarea{background:#fffdf5;border-color:#c29ed4;color:#62436f}
+html[data-theme="festival"] .calendar-weekdays,html[data-theme="festival"] .calendar-legend,html[data-theme="festival"] .journal-note-foot,html[data-theme="festival"] .journal-date small,html[data-theme="festival"] .day-stat-grid span{color:#7d5a8f}
+html[data-theme="festival"] .badge{background:#eaddff;border-color:#bfa0d5}
+html[data-theme="festival"] .badge.earned{background:#bff2d8;border-color:#82c5a4}
+html[data-theme="festival"] .badge strong{color:#77518b}
+html[data-theme="festival"] .badge.earned strong{color:#466f59}
+html[data-theme="festival"] .badge small,html[data-theme="festival"] .badge>span,html[data-theme="festival"] .rounds-list small,html[data-theme="festival"] .record-summary span{color:#7a5d88}
+html[data-theme="festival"] .skill-row{border-color:#e5c9ee}
+html[data-theme="festival"] .skill-row:hover{background:#e8d2ff}
+html[data-theme="festival"] .map-unit h3,html[data-theme="festival"] .map-unit h3 small,html[data-theme="festival"] .skill-row small{color:#79518c}
+html[data-theme="festival"] .bottom-strip{background:#fff1addd;border:1px solid #d4b16c}
+html[data-theme="festival"] .bottom-strip .review-shortcut{background:#f1d5ff;border-color:#c19bd8}
+html[data-theme="festival"] .little-stats,html[data-theme="festival"] footer,html[data-theme="festival"] footer button{color:#6c4e7d}
+html[data-theme="festival"] footer{background:#fffaf0a6;border-radius:14px;padding:8px 14px}
+html[data-theme="festival"] .result-stats{background:#fffdf5f5;border:2px solid #b498d0;box-shadow:3px 5px #aa87cb4d}
+html[data-theme="festival"] .result-main>p{color:#67477d;text-shadow:0 1px #fff}
+html[data-theme="festival"] .result-sticker{background:#ffdc77;border:2px solid #ba8b4b;color:#7c542c;box-shadow:2px 3px #b98c4b40}
+html[data-theme="festival"] .result-main h1{color:#473064;text-shadow:2px 2px #fff}
+html[data-theme="festival"] .finale-floor{background:radial-gradient(ellipse,#fff19b,#a5e8d9 70%);border-color:#9f75bc}
+html[data-theme="festival"] .finale-band-title{color:#714389;text-shadow:1px 1px #fff}
+html[data-theme="festival"] .finale-encore{background:#e9ceff;border-color:#aa7ac5;color:#71408d}
+html[data-theme="festival"] .finale-encore:hover{background:#d8b5ff}
+@media(max-width:650px){html[data-theme="festival"] body{background-image:radial-gradient(ellipse at 65% 28%,#ffffffa6 0%,#ffffff15 48%,transparent 72%),repeating-conic-gradient(from -8deg at 65% 30%,#9ebcff 0deg 18deg,#ffb0d9 18deg 36deg,#a0e9ee 36deg 54deg,#ffe598 54deg 72deg,#c5a8ff 72deg 90deg)}
+html[data-theme="festival"] .header{border-radius:0 0 22px 22px}
+html[data-theme="festival"] .header .nav-item{border-radius:9px}
+}
+html[data-theme="festival"] .button.primary,html[data-theme="festival"] .start-main.primary{background:#3864df}

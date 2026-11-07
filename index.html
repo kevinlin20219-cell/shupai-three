@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN" data-theme="festival">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f8f7ee">
+  <meta name="description" content="让数学拍出节奏！人教版三年级上册，观察物体、混合运算、测量、乘法、线和角与分数的独立练习舞台。">
+  <title>数派！· 人教版三上数学</title>
+  <link rel="icon" type="image/svg+xml" href="./icon.svg">
+  <script>
+    try {
+      const saved=JSON.parse(localStorage.getItem('shupai-three-renjiao-current-v1')||localStorage.getItem('shupai-three-renjiao-v1')||localStorage.getItem('shupai-three-zhejiang-v1'));
+      const theme=saved?.version===1&&saved.settings?.theme==='light'?'light':'festival';
+      document.documentElement.dataset.theme=theme;
+      document.querySelector('meta[name="theme-color"]').content=theme==='light'?'#fff9ee':'#9ebcff';
+    } catch {}
+  </script>
+  <link rel="stylesheet" href="./styles.css?v=three9">
+  <link rel="stylesheet" href="./festival.css?v=three9-buttons1">
+  <link rel="stylesheet" href="./themes.css?v=three9">
+  <link rel="stylesheet" href="./cast.css?v=three9">
+  <link rel="stylesheet" href="./grade-three.css?v=three9-buttons1">
+  <link rel="stylesheet" href="./advanced-art.css?v=three9">
+</head>
+<body>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div id="app"></div>
+  <dialog id="modal" aria-labelledby="modal-title"><div id="modal-content"></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="./app.mjs?v=three9-buttons1"></script>
+</body>
+</html>

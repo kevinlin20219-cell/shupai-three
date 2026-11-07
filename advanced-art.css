@@ -1,0 +1,46 @@
+/* A full concert vignette for the advanced entrance. */
+.advanced-hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(300px,38%);column-gap:20px;align-items:start;padding:38px 34px 32px;min-height:430px;isolation:isolate}
+.advanced-hero>*:not(.challenge-art){grid-column:1;position:relative;z-index:2}
+.advanced-hero h1,.advanced-hero p{max-width:none}
+.advanced-hero h1{margin:18px 0 12px;font-size:clamp(34px,3.3vw,44px);text-wrap:balance}
+.advanced-hero p{margin:0 0 16px;line-height:1.85}
+.advanced-hero>.button{width:fit-content;max-width:100%;margin-top:4px}
+.advanced-hero>small{margin-top:14px}
+.advanced-hero .advanced-badges{margin:0 0 18px;gap:7px}
+html[data-theme="festival"] .advanced-hero{background:linear-gradient(110deg,#f6d5ff 0%,#ffe4f3 52%,#d7dcff 100%);border-color:#a77fc7}
+.challenge-art.encore-scene{position:relative;right:auto;top:auto;grid-column:2;grid-row:1 / span 6;align-self:center;justify-self:center;width:100%;max-width:380px;height:360px;isolation:isolate;pointer-events:none}
+.encore-rays{position:absolute;inset:-33px -43px -8px;z-index:-4;background:repeating-conic-gradient(from -12deg at 50% 54%,#ffb2d9 0deg 20deg,#c5b5ff 20deg 40deg,#a7e7ed 40deg 60deg,#ffe8a7 60deg 80deg);opacity:.75;mask-image:radial-gradient(ellipse at 50% 52%,#000 32%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse at 50% 52%,#000 32%,transparent 70%)}
+.encore-halo{position:absolute;width:81%;aspect-ratio:1;left:9.5%;top:30px;z-index:-3;border:1px solid #e2bd79;border-radius:50%;background:radial-gradient(circle at 37% 25%,#fff2b8,#ffda83 76%);box-shadow:0 0 0 9px #fff4ce44,0 0 35px #fff2ba80}
+.encore-halo:after{content:'';position:absolute;inset:9px -5px -5px 9px;border:1.5px dashed #c5a96c;border-radius:50%;opacity:.8}
+.encore-orbit{position:absolute;left:2%;top:68px;width:96%;height:62%;border:1px solid #b48fd283;border-radius:50%;z-index:-2}
+.encore-orbit.orbit-a{transform:rotate(-28deg)}
+.encore-orbit.orbit-b{transform:rotate(29deg);border-color:#8dcace99}
+.encore-sparkles{position:absolute;inset:0;width:100%;height:100%;z-index:2;overflow:visible}
+.encore-status{position:absolute;right:1%;top:14px;display:flex;align-items:center;gap:7px;padding:8px 13px;border:1px solid #d9ad72;border-radius:16px 21px 15px 19px;background:#fff5c8;color:#836152;box-shadow:2px 3px #d7b78455;transform:rotate(5deg);font-family:var(--font-hand);font-size:14px;line-height:1.4;z-index:4;white-space:nowrap}
+.encore-status i{width:7px;height:7px;background:#67bfae;border-radius:50%;box-shadow:0 0 0 3px #a2dec13b}
+.encore-scene .challenge-cat{position:absolute;top:auto;left:7%;bottom:38px;width:86%;height:auto;aspect-ratio:300/280;z-index:3;filter:drop-shadow(0 4px 0 #fff3d55c);animation:encore-bounce 4s ease-in-out infinite}
+.encore-platform{position:absolute;bottom:29px;left:0;width:100%;height:auto;z-index:1;overflow:visible}
+.encore-caption{position:absolute;bottom:0;left:0;right:0;text-align:center;font-family:var(--font-hand);font-size:14px;letter-spacing:2px;color:#94708d}
+.encore-note,.encore-math{position:absolute;font-family:var(--font-display);line-height:1;z-index:2;opacity:.85}
+.encore-note{font-size:36px;color:#bf86c4;animation:encore-note 4.5s ease-in-out infinite}
+.encore-note.note-a{right:4%;top:100px;transform:rotate(17deg)}
+.encore-note.note-b{left:7%;bottom:94px;color:#d7918a;font-size:28px;animation-delay:-1.6s;transform:rotate(-15deg)}
+.encore-note.note-c{right:10%;bottom:84px;font-size:24px;color:#729bb6;animation-delay:-3s}
+.encore-math.math-a{left:0;top:90px;color:#aa72c0;font-size:31px;transform:rotate(-12deg)}
+.encore-math.math-b{right:0;bottom:132px;color:#4d9aa9;font-size:32px;transform:rotate(14deg)}
+.encore-math.math-c{left:7%;top:47px;font-size:20px;color:#d5919f;transform:rotate(-12deg)}
+@keyframes encore-bounce{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-7px) rotate(2deg)}}
+@keyframes encore-note{0%,100%{translate:0 0;opacity:.65}50%{translate:0 -7px;opacity:1}}
+.low-motion .encore-scene .challenge-cat,.low-motion .encore-note{animation:none}
+@media(max-width:950px) and (min-width:701px){.advanced-hero{grid-template-columns:minmax(0,1fr) 290px;column-gap:8px;padding:30px 26px}.advanced-hero h1{font-size:34px}.challenge-art.encore-scene{height:330px}.advanced-hero .button{font-size:18px}.encore-status{font-size:12px}.encore-caption{font-size:12px;letter-spacing:1px}}
+@media(max-width:700px){
+ .advanced-hero{display:flex;flex-direction:column;align-items:stretch;min-height:0;padding:25px 22px 24px;gap:0}
+ .advanced-hero>*:not(.challenge-art){max-width:none}
+ .advanced-hero .eyebrow{font-size:13px}.advanced-hero h1{font-size:33px;margin:17px 0 9px;max-width:none}.advanced-hero h1>span{display:none}
+ .advanced-hero p{font-size:16px;max-width:none;margin-bottom:15px}.advanced-hero .advanced-badges{gap:6px;margin-bottom:0}.advanced-badges>span{font-size:12px}
+ .challenge-art.encore-scene{order:1;flex:none;align-self:center;width:min(100%,330px);height:294px;margin:12px 0 8px}
+ .advanced-hero>.button{order:2;width:100%;min-height:50px;margin-top:3px;font-size:18px}.advanced-hero>small{order:3;font-size:13px;line-height:1.7;margin-top:13px;text-align:center}
+ .encore-rays{inset:-20px -22px -8px}.encore-status{font-size:12px;right:0;top:10px;padding:7px 11px}.encore-halo{top:25px}.encore-caption{font-size:12px;letter-spacing:1.5px}
+}
+@media(max-width:370px){.advanced-hero{padding:23px 17px}.advanced-hero h1{font-size:26px}.challenge-art.encore-scene{height:283px;margin-top:10px}.encore-status{font-size:11px;padding:6px 9px}.encore-math.math-a{font-size:26px;top:78px}.encore-note.note-a{font-size:29px;top:87px}.encore-note.note-b{font-size:24px}.advanced-hero>.button{font-size:17px}.encore-halo{top:22px}}
+@media(prefers-reduced-motion:reduce){.encore-scene .challenge-cat,.encore-note{animation:none}}
