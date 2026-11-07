@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/grmchn/dopa-drill",
+  "commit": "e4da063f74c423b5e6eaad3faeb9631e741d821c",
+  "license": "MIT; LICENSE.dopa-drill.txt",
+  "files": {
+    "dopa-audio.mjs": "app/js/audio.js (source unchanged apart from copyright header)",
+    "dopa-fx.mjs": "app/js/fx.js (original mascot sprite excluded; local fonts)",
+    "dopa-director.mjs": "app/js/main.js burstKinds / legacy particle presets; original front/back layering and repeated finales adapted in ../celebration.mjs with original curling ribbons",
+    "dopa-bg.mjs": "app/js/bg.js (full WebGL environment; excluded original mascot silhouette replaced by original star motif)"
+  },
+  "fullAudit": {
+    "source": "all production JS, CSS, HTML plus learning, actor, licensing, tools and tests reviewed",
+    "upstreamTests": 59,
+    "progression": "E=0.08+0.92*(qi/(N-1))^1.3; original incremental stage classes retained; user-requested glow at 3 completed, environment at 5 completed"
+  }
+}
